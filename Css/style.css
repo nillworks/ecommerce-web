@@ -1,0 +1,26 @@
+:root {
+  /* Primary Color */
+  --primary-color: #008ecc;
+
+  /* Text Colors */
+  --text-color: #666666;
+  --text-primary: #181818;
+  --heading-color: #222222;
+  --light-text: #888888;
+
+  /* Border & Line */
+  --border-color: #ededed;
+  --line-color: #d9d9d9;
+
+  /* Background Colors */
+  --bg-1: #f5f5f5;
+  --bg-2: #f6f6fc;
+  --bg-3: #f3f9fb;
+
+  /* Yellow Shades */
+  --yellow-1: #e3bc01;
+  --yellow-2: #e3bc01;
+
+  /* White */
+  --white-color: #ffffff;
+}
