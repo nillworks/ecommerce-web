@@ -2,13 +2,109 @@
 
 /* Laptop device */
 @media screen and (max-width: 1200px) {
+  /* Top Header Responsive */
+  .welcome_to_worldwide .inner {
+    justify-content: space-around;
+  }
+  .welcome_to_worldwide .icons_welcome_right .icons_w span {
+    color: var(--text-color);
+    font-size: 10px;
+  }
+  /* Center Header Responsive */
+  #MegaMart_area .inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #MegaMart_area .inners {
+    justify-content: space-between;
+  }
+  /* Bottom Header Responsive */
+  #navigation_menu .ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /* Tablet Device */
 @media screen and (max-width: 992px) {
+  /* Top Header Responsive */
+  .welcome_to_worldwide .inner {
+    justify-content: space-around;
+  }
+  .welcome_to_worldwide .icons_welcome_right .icons_w span {
+    color: var(--text-color);
+    font-size: 10px;
+  }
+  /* Center Header Responsive */
+  #MegaMart_area .inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #MegaMart_area .inners {
+    justify-content: space-between;
+  }
+  /* Bottom Header Responsive */
+  #navigation_menu .ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+  }
 }
 /* Big Mobile Device */
 @media screen and (max-width: 768px) {
+  /* Top Header Responsive */
+  .welcome_to_worldwide .inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome_to_worldwide .icons_welcome_right .icons_w span {
+    color: var(--text-color);
+    font-size: 10px;
+  }
+  /* Center Header Responsive */
+  #MegaMart_area .inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #MegaMart_area .inners {
+    justify-content: space-between;
+  }
+  /* Bottom Header Responsive */
+  #navigation_menu .ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /* Mobile Device */
 @media screen and (max-width: 576px) {
+  /* Top Header Responsive */
+  .welcome_to_worldwide .inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome_to_worldwide .icons_welcome_right .icons_w span {
+    color: var(--text-color);
+    font-size: 10px;
+  }
+  /* Center Header Responsive */
+  #MegaMart_area .inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #MegaMart_area .inners {
+    justify-content: space-between;
+  }
+  /* Bottom Header Responsive */
+  #navigation_menu .ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
 }

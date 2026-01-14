@@ -19,9 +19,11 @@ h4,
 h5,
 h6 {
   font-size: 20px;
+  color: var(--heading-color);
 }
 p {
   font-size: 14px;
+  color: var(--text-color);
 }
 img {
   max-width: 100%;
@@ -36,4 +38,18 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+}
+.inners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.PaddingXl {
+  padding: 25px 6px;
+}
+.ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }

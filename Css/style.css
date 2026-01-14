@@ -24,3 +24,81 @@
   /* White */
   --white-color: #ffffff;
 }
+
+/* <!-- Welcome to worldwide! -->  */
+.welcome_to_worldwide {
+  padding: 10px 2px;
+  background-color: var(--bg-1);
+}
+.welcome_to_worldwide .icons_welcome_right .icons_w span {
+  color: var(--text-color);
+}
+
+/* MegaMart  style */
+.logo_images img {
+  background-color: var(--bg-3);
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+.logo_images h2 {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: 600;
+}
+#MegaMart_area .search_bars {
+  background-color: var(--bg-3);
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+}
+.search_bars input {
+  border: none;
+  background-color: transparent;
+}
+.search_bars #list {
+  margin-left: 40px;
+}
+.input_search input::placeholder {
+  font-size: 14px;
+}
+
+.login_cart .login span,
+.login_cart .cart span {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* Navigation Menu */
+#navigation_menu .ul {
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 14px 0;
+}
+.list:nth-child(1) {
+  background-color: var(--primary-color);
+  border-radius: 1008px;
+}
+.list:nth-child(1) span {
+  color: white;
+  font-size: 14px;
+}
+.list {
+  display: inline-grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--bg-3);
+  padding: 8px 26px;
+  border-radius: 1008px;
+  white-space: nowrap;
+}
+.list span {
+  font-weight: 500;
+  font-size: 14px;
+}
+/* Hero Header area Style */
