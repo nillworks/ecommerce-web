@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="Css/responsive.css">
   <!-- Tailwind Css link -->
   <link href="./src/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>MegaMart</title>
 </head>
 
@@ -85,7 +86,7 @@
             <span>Sign In</span>
           </div>
           <!-- cart -->
-          <div class="cart">
+          <div class="cart flex items-center gap-3">
             <img src="Images/icons/cars.png" alt="icons">
             <span>Cart</span>
           </div>
@@ -176,9 +177,170 @@
   <!-- Main Section -->
   <main>
 
-    <!--  -->
-    <section id="">
+    <!-- Smartphones Section -->
+    <section id="Smartphones_area" class="mt-20">
       <div class="container">
+
+        <!-- Title and Subtitle -->
+        <div class="title border-b-2 pb-4 px-4 flex flex-col gap-5 sm:flex-row sm:justify-between">
+          <div>
+            <h2 class="text-2xl sm:border-b-2 sm:border-[#008ecc] max-w-max">Grab the best deal on <br
+                class="sm:hidden"><span class="text-[#008ecc] border-b-2 border-[#008ecc]">Smartphones</span></h2>
+          </div>
+
+          <!-- View All Button -->
+          <div class="btn flex items-center gap-2">
+            <a href="#">View All</a>
+            <img src="Images/icons/Arrow---Down-2.png" alt="icons">
+          </div>
+        </div>
+
+        <!-- Smartphone_cards  -->
+        <div class="p-4 grid grid-cols-1 items-center gap-5 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5">
+
+          <!-- item 1 child card -->
+          <div class="w-full bg-[#f5f5f5] shadow-lg rounded-lg relative">
+
+            <!-- Discount OFF -->
+            <div class="absolute top-0 right-0 bg-[#008ecc] max-w-max rounded-bl-2xl rounded-tr-lg cursor-pointer">
+              <p class="text-2xl text-white font-bold py-2 px-4 2xl:px-2 2xl:py-1"><a href="#">56% <br> OFF</a></p>
+
+            </div>
+
+            <!-- Card Images -->
+            <img src="Images/image 3.png" alt="img" class="p-4 mx-auto rounded-md sm:w-auto">
+
+            <!-- Details Phone Cards -->
+            <div class="Phone_details flex flex-col gap-2 p-2 rounded-b-lg bg-white w-full">
+              <h2 class="text-2xl font-semibold pt-3">Galaxy S22 Ultra</h2>
+
+              <!-- Price -->
+              <div class="flex items-center gap-3 border-b-2 pb-3">
+                <span class="font-bold text-black text-2xl">₹32999</span>
+                <span class="line-through">₹74999</span>
+              </div>
+              <!-- Save price  -->
+              <div class="pt-3">
+                <p class="text-green-600 font-semibold text-2xl">Save - ₹32999</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- item 2 child card -->
+          <div class="w-full bg-[#f5f5f5] shadow-lg rounded-lg relative">
+
+            <!-- Discount OFF -->
+            <div class="absolute top-0 right-0 bg-[#008ecc] max-w-max rounded-bl-2xl rounded-tr-lg cursor-pointer">
+              <p class="text-2xl text-white font-bold py-2 px-4 2xl:px-2 2xl:py-1 "><a href="#">56% <br> OFF</a></p>
+
+            </div>
+
+            <!-- Card Images -->
+            <img src="Images/image 3-1.png" alt="img" class="p-4 mx-auto rounded-md sm:w-auto">
+
+            <!-- Details Phone Cards -->
+            <div class="Phone_details flex flex-col gap-2 p-2 rounded-b-lg bg-white w-full">
+              <h2 class="text-2xl font-semibold pt-3">Galaxy M13 (4GB | 64 GB )</h2>
+
+              <!-- Price -->
+              <div class="flex items-center gap-3 border-b-2 pb-3">
+                <span class="font-bold text-black text-2xl">₹10499</span>
+                <span class="line-through">₹14999</span>
+              </div>
+              <!-- Save price  -->
+              <div class="pt-3">
+                <p class="text-green-600 font-semibold text-2xl">Save - ₹4500</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- item 3 child card -->
+          <div class="w-full bg-[#f5f5f5] shadow-lg rounded-lg relative">
+
+            <!-- Discount OFF -->
+            <div class="absolute top-0 right-0 bg-[#008ecc] max-w-max rounded-bl-2xl rounded-tr-lg cursor-pointer">
+              <p class="text-2xl text-white font-bold py-2 px-4 2xl:px-2 2xl:py-1"><a href="#">56% <br> OFF</a></p>
+
+            </div>
+
+            <!-- Card Images -->
+            <img src="Images/image 3-2.png" alt="img" class="p-4 mx-auto rounded-md sm:w-auto">
+
+            <!-- Details Phone Cards -->
+            <div class="Phone_details flex flex-col gap-2 p-2 rounded-b-lg bg-white w-full">
+              <h2 class="text-2xl font-semibold pt-3">Galaxy M33 (4GB | 64 GB )</h2>
+
+              <!-- Price -->
+              <div class="flex items-center gap-3 border-b-2 pb-3">
+                <span class="font-bold text-black text-2xl">₹16999</span>
+                <span class="line-through">₹24999</span>
+              </div>
+              <!-- Save price  -->
+              <div class="pt-3">
+                <p class="text-green-600 font-semibold text-2xl">Save - ₹8000</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- item 4 child card -->
+          <div class="w-full bg-[#f5f5f5] shadow-lg rounded-lg relative">
+
+            <!-- Discount OFF -->
+            <div class="absolute top-0 right-0 bg-[#008ecc] max-w-max rounded-bl-2xl rounded-tr-lg cursor-pointer">
+              <p class="text-2xl text-white font-bold py-2 px-4 2xl:px-2 2xl:py-1"><a href="#">56% <br> OFF</a></p>
+
+            </div>
+
+            <!-- Card Images -->
+            <img src="Images/image 3-3.png" alt="img" class="p-4 mx-auto rounded-md sm:w-auto">
+
+            <!-- Details Phone Cards -->
+            <div class="Phone_details flex flex-col gap-2 p-2 rounded-b-lg bg-white w-full">
+              <h2 class="text-2xl font-semibold pt-3">Galaxy M53 (4GB | 64 GB )</h2>
+
+              <!-- Price -->
+              <div class="flex items-center gap-3 border-b-2 pb-3">
+                <span class="font-bold text-black text-2xl">₹31999</span>
+                <span class="line-through">₹40999</span>
+              </div>
+              <!-- Save price  -->
+              <div class="pt-3">
+                <p class="text-green-600 font-semibold text-2xl">Save - ₹9000</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- item 5 child card -->
+          <div class="w-full bg-[#f5f5f5] shadow-lg rounded-lg relative">
+
+            <!-- Discount OFF -->
+            <div class="absolute top-0 right-0 bg-[#008ecc] max-w-max rounded-bl-2xl rounded-tr-lg cursor-pointer">
+              <p class="text-2xl text-white font-bold py-2 px-4 2xl:px-2 2xl:py-1"><a href="#">56% <br> OFF</a></p>
+
+            </div>
+
+            <!-- Card Images -->
+            <img src="Images/image 3-4.png" alt="img" class="p-4 mx-auto rounded-md sm:w-auto">
+
+            <!-- Details Phone Cards -->
+            <div class="Phone_details flex flex-col gap-2 p-2 rounded-b-lg bg-white w-full">
+              <h2 class="text-2xl font-semibold pt-3">Galaxy S22 Ultra</h2>
+
+              <!-- Price -->
+              <div class="flex items-center gap-3 border-b-2 pb-3">
+                <span class="font-bold text-black text-2xl">₹67999</span>
+                <span class="line-through">₹85999</span>
+              </div>
+              <!-- Save price  -->
+              <div class="pt-3">
+                <p class="text-green-600 font-semibold text-2xl">Save - ₹18000</p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
 
 
       </div>
